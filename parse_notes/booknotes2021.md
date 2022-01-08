@@ -149,7 +149,7 @@
 
 ### H2O
 
-##### Phillip Ball
+#### Phillip Ball
 
 - Chaos: From ancient greek meaning "gas"
 - Protolysis: Splitting water into oxygen and hydrogen.
