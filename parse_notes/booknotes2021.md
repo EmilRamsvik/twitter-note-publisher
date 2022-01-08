@@ -55,7 +55,7 @@
 
 #### Caroline Criado Perez
 
-- "Representation of the world, like the world itself, is the work of men; they describe it fro their own point of view, which they confuse with absolute truth" - Simone de Beauvoir
+- "Representation of the world, like the world itself, is the work of men; they describe it from their own point of view, which they confuse with absolute truth" - Simone de Beauvoir
 - Shibboleth: Custom or tradition that distinguishes one group from another. 
 - Women are 3 times more likely to be harassed at a transit stop than on public transport. 
 - The pharmaceutical agent in Viagra was discovered when looking for remedies for dysmenorrhea (Period pain). After the discovery of the effects on erectile dysfunction, the research was discontinued. 
