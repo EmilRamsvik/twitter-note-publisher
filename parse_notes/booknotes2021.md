@@ -28,7 +28,7 @@
 - Bardeen on the discovery of the transistor to his wife while she was peeling carrots, almost mumbling: "We discovered something important today"
 - Understand which industries are symbiotic so that you can capitalize on how they spar each other on. 
 - Linear model of innovation:  invention -> innovation -> capitalization
-- During the early days of Apple (Just before they funded the company), Steve Wozniak´s father went to Steve Jobs's house and berated him for wanting a 50-50 split of Apple. "You haven't made any contributions to the firm," Wozniak's father said. He made Steve Jobs cry and wanted to cancel the whole apple affair. 
+- During the early days of Apple (Just before they funded the company), Steve Wozniak´s father went to Steve Jobs's house and berated him for wanting a 50-50 split of Apple. "You haven't made any contributions to the firm," Wozniak's father said. He made Steve Jobs cry and wanting to cancel the whole apple affair. 
 - Venture Capitalist Andressen (Mosaic) favors start-ups with working code or customer service rather than charts and presentations. 
 - Finance industry is like a big oil tanker, you need to compartmentalize the industry to prevent massive losses in case it goes wrong. Chaos is inherent in the system. 
 - When IBM launched its internal electronic mail service they estimated the number of emails based on previous correspondence; memos, letters, etc. The estimate was so wrong that the server crashed within a day. 
@@ -46,7 +46,7 @@
 - Ipso-facto: by that very fact or act
 - You can't read the label while you are sitting inside the jar. 
 - "When all you got is a hammer, everything looks like a nail" - Abraham Maslow.
-- Although the term "brainwashing" was invented by the CIA (THe term came from an op-ed,  part of the testing of tag phrases by the CIA) it came to be the greatest fear of the American people during the cold war. Even though this phenomenon was only dreamed up by the CIA themselves. 
+- Although the term "brainwashing" was invented by the CIA (The term came from an op-ed,  part of the testing of tag phrases by the CIA) it came to be the greatest fear of the American people during the cold war. Even though this phenomenon was only dreamed up by the CIA themselves. 
 - Jerusalem Syndrome: Temporary fit of madness when visiting a holy place (Extreme ego inflation)
 - The term "Worth his salt" came from ancient Rome where legionaries where paid in salt. 
 
@@ -156,7 +156,7 @@
 - Amazon delivers around 1/5 of the world's fresh water to the ocean.
 - The tidal current is governed by a 24hours + 50 minutes cycle.
 - Tropical cyclones are created when water reaches a temperature of 27 Celsius or warmer. 
-- Ceratin types of plankton produce the gas DMS, which is the cause of the invigorating smell of the ocean. 
+- Certain types of plankton produce the gas DMS (Dimethyl sulfide), which is the cause of the invigorating smell of the ocean. 
 - Hydro-gene means water former
 - Oxy-gene means acid former. 
 - Oxygen released from millions of cyanobacteria resulted in a holocaust for life more profound than any human activity (Or natural for that matter)
@@ -167,9 +167,9 @@
 
 #### N.N. Taleb
 
-- "No skill to understand it, mastery to write it" Arab saying. 
+- "No skill to understand it, mastery to write it" - Arab saying. 
 - "A man is truly free when he judges the world, and other men, with uncompromising sincerity" - George Santayana
-- Damocles sword: The Sicilian despot Dionysis the second holds a feast for the adventurer Damocles, but above Damocles hangs a sword held by a single horsehair.
+- Damocles sword: The Sicilian despot Dionysis the second holds a feast for the adventurer Damocles, but above Damocles hangs a sword held by a single horsehair. An allusion to the imminent and ever-present peril faced by those in positions of power.
 - Flaneur: Walking observer of the metropolis.
 - Econophysics: Applying physics to solve economics. 
 - "It never happened before" - Alan Greenspan explaining the financial crisis of 2007 to congress. 
@@ -180,20 +180,19 @@
 - Procrustean bed - Forcing someone to fit or conform, generally through violence. 
 - "Avoid making the wrong mistakes" - Yogi Berra
 - One cannot compare governments across sizes, Singapore cannot be compared to India. 
--Dr. Semmelweis(Discoverer of importance of hygine in hospitals etc.) said that the establishment of doctors is a bunch of criminals.
+- Dr. Semmelweis(Discoverer of importance of hygine in hospitals etc.) said that the establishment of doctors is a bunch of criminals.
 - Nordics had a number of severe crises in 1990, leading to austerity and tough fiscal policies that ensured that they became relatively unscathed by the financial crisis 20 years later.
 - Metaphysical: Philosophy of first principles.
 - Write the resignation letter before you start the job
-Write the resignation letter before you start the job
-– "If This student is smart the teacher takes the credit " - Yiddish Saying
-- Empiricism is organized charlatanism. – Come on thinking in ancient times
-– Focus is not saying yes to the great idea it is saying no to all the 100 good ideas" - Steve Jobs
-- "A philosopher should be known for a single idea, not more." - Bergerson's Razor
+- "If This student is smart the teacher takes the credit " - Yiddish Saying
+- Empiricism is organized charlatanism. - Common thinking in ancient times
+- Focus is not saying yes to the great idea it is saying no to all the 100 good ideas" - Steve Jobs
+- Bergerson's Razor: A philosopher should be known for a single idea, not more.
 - Tempus redux veram: Time removes everything.
 - Lindy effect: The old is expected to live longer than the young. ( expected life is proportional to live life ). 
 - Neomania: obsession with the new. 
 - If all medications were dumped into the Sea it would be better for mankind but not for the fish
-– "Behind you is the sea,  before you the enemy you are most of us that are numbered all you have is your sword and courage." Commander Tariq Ibn Ziyad after burning his fleet. 
+- " Behind you is the sea, before you, the enemy. You have left now only the hope of your courage and your constancy." - Commander Tariq Ibn Ziyad after burning his fleet. 
 - Anything that needs to be marked heavily is either an inferior product or an evil one.
 
 ### Phoenix Project
@@ -204,7 +203,11 @@ Write the resignation letter before you start the job
 - "Any improvements made anywhere besides the bottleneck is an illusion" - Dr. Eliyaha Goldratt
 - Smoke test:  Testing term used by circuit engineers. If you turn the circuit on and no smoke comes out it will probably work.
 - Perfection is not the enemy of good, lack of competence is the enemy of good.
-– Four types of work: 1. Business projects 2. Internal projects 3. Transformations 4. Unplanned work
+- Four types of work: 
+    1. Business projects
+    2. Internal projects 
+    3. Transformations 
+    4. Unplanned work
 - Unplanned work is the interest of technical debt.
 - Until code is in production, no value is created.
 - Swarming: Entire organization swarms a local problem.
@@ -214,24 +217,24 @@ Write the resignation letter before you start the job
 
 #### Cal Newport
  
-- All of the main selling points of the iPhone were integrating an iPod touch with her phone. The killer apps is making calls.
-– Big Tobacco engineered cigarettes to be more addictive.
-– Wearing A red shirt on a dating profile leads to more interest.
+- All of the main selling points of the iPhone were integrating an iPod touch with a phone. The killer apps is making calls.
+- Big Tobacco engineered cigarettes to be more addictive.
+- Wearing A red shirt on a dating profile leads to more interest.
 A red shirt on a dating profile leads to more interest.
-Digital minimalism: A philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.
+- Digital minimalism: A philosophy of technology use in which you focus your online time on a small number of carefully selected and optimized activities that strongly support things you value, and then happily miss out on everything else.
 - Principles of digital minimalism
     1. Clutter is costly.
     2. Optimization is important.
     3. Intentionality is satisfying.
-- "The cost of a thing is the amonout of life which is required to be exchanged for it." - Thoreau
+- "The cost of a thing is the amount of life which is required to be exchanged for it." - Thoreau
 - Amish hacking: Choose the tools and technologies based on whether the technology provides more value than it costs(time, energy).
 - Digital D clutter process
     1. 30 day break from optional technologies.
-    2. Explored during the break activities you find satisfying and meaningful.
+    2. Explore during the break activities you find satisfying and meaningful.
     3. Re-introduce optimal technology determined from what value and how detrimental it is and how you can maximize its value.
 - "Lead yourself first" - Keith Ledge
 - "Well, if you think I can render some service, I will" - Dr. Martin Luther King Jr. after appointment to lead them on call Montgomery bus boycott.
-- "Conversations  enriches understanding, but solitude is the school of geniuses" - Edward Gibbon
+- "Conversations enriches understanding, but solitude is the school of geniuses" - Edward Gibbon
 - Sine qua non - Something you cannot disperse of. 
 - Solitude deprivation: A state in which you spend close to zero time along with your own thoughts and are free from input from other minds.
 - Bennet Principle: How to use a lot of energy on leisure to maximize benefits.
@@ -242,7 +245,7 @@ Digital minimalism: A philosophy of technology use in which you focus your onlin
 
 #### Nicole Forsgren, Jez Humble and Gene Kim
 
-- "Executives often overestimate their progress compared to the boots on the ground." Klovens et. al.
+- "Executives often overestimate their progress compared to the boots on the ground." - Klovens et. al.
 - High performers versus low performers:
     1. 46 times more frequent called deployment.
     2. 440 times faster lead time from commit to the poor.
@@ -250,9 +253,9 @@ Digital minimalism: A philosophy of technology use in which you focus your onlin
     4. 5 times over change failure rate.
 - Teams achieve this by improving ride capabilities.
 Teams achieve this by improving ride capabilities.
-- _incommensurable_ Cannot be measured or compared. 
+- Incommensurable: Cannot be measured or compared. 
 - Measure should focus on outcomes, not output.
-– Lead time is the time it takes to go from a customer making a request to a request being satisfied.
+- Lead time is the time it takes to go from a customer making a request to a request being satisfied.
 - Product delivery lead time: Code committed to code in production.
 - Truism of Dev-Ops that culture is of huge importance.
 - Typology of organizational culture:
@@ -268,14 +271,15 @@ Teams achieve this by improving ride capabilities.
 - Deployment pain: Fair and anxiety that engineers feel when their push code into production. It is important to make sure because highlights fixing between development and operations.
 - Technical practices that improve our ability to deliver software with both speed and stability also reduce stress and anxiety he associated with pushing code to production.
 - Continous Delivery -> Lean Practises -> Job satisfaction -> Organizational.
-- Practices like proactive monitoring, and test and deployment automation and their bowl automation -> Job satisfaction
+- Practices like proactive monitoring, and test and deployment automation and enable automation -> Job satisfaction
 - Teams with more diversity are smarter teams. But teams and organizations must be inclusive. (Rock & Grant 2016)
 - Yak shaving describes doing some seemingly useless task that is necessary to complete another task, which is necessary to complete other tasks, which eventually will allow you to complete your initial goal.
 - Organize internal YAK days, where teams get together to work on technical debt. 
--Bezos to pizza rules: no team can be so large that it will require more than two pizzas to feed them.
+- Bezos 2 pizza rule: no team can be so large that it will require more than two pizzas to feed them.
 - Teams with more women tend to fall above average on the collective intelligence scale(Wolley & Malione 2011).
 - Since nearly every company relies on software, delivery performance is critical to any organization doing business day.
-- 24 key capabilities that drive performance
+- 24 key capabilities that drive performance:
+
     1. Continous delivery:
         * Use version control for all production artifacts.
         * Ultimate deployment process.
@@ -293,19 +297,18 @@ Teams achieve this by improving ride capabilities.
         * Make workflow visible through the value stream.
         * Work in small batches.
         * Foster and amenable team experimentation.
-
     4. Lean Management & Monitoring
         * Have a lightweight change approval process.
         * Monitor across application and infrastructure.
         * Check system health proactively.
         * Improve processes and manage work with WIP.
-        * Visualize work to monitor quality and   * communications.
+        * Visualize work to monitor quality and communications.
     5. Cultural
         * Support generative culture.
         * Encourage and support learning.
         * Support And facilitate collaboration among teams.
         * Provide resources and tools to make work meaningful.
-    * Support/body transformational leadership.
+        * Support/body transformational leadership.
 - High performers are twice as likely to exceed organizational performance goals and non-commercial performance goals as low-performance teams. 
 - Four measures of software delivery performance:
     * Deployment frequency
@@ -335,7 +338,7 @@ Teams achieve this by improving ride capabilities.
 #### Aage Storm Borchgrevink
 
 - A.P. Møller Maersk sikret seg på 1960 tallet en retten til utvinning av hydrokarboner på dansk sokkel. Angivelig var statsråden som signerte avtalen full.
--Oljeselskapenes 7 søstre: BP, Shell, Mobil, Chevron, Exxon, Texaco, Gulf Oil (Senere Chevron). 
+- Oljeselskapenes 7 søstre: BP, Shell, Mobil, Chevron, Exxon, Texaco, Gulf Oil (Senere Chevron). 
 - Polemisere: Er å drive polemikk, å argumentere sterkt imot noe.
 - Brent: Navnet på et oljefelt, fordi britene kalte oljefeltene sine opp etter fugler (Brent Goose). Brent blend er standard betegnelsen på nordsjøolje. 
 - Hjemme-brent: Norsk nordsjøolje
@@ -348,12 +351,12 @@ Teams achieve this by improving ride capabilities.
 - Den som gikk ut mot Statoil, risikerte å bli omringet av selskapets venner i media og distriktene, og få landets eneste rikskringkaster på nakken.
 - Byråkratene i olje- og energi departementet mislikte at Arve Johnsen oppførte seg som en halvgud.
 - "Denne var dom itte heldig med" - Oddvar Nordli om Maotai, tradisjonell kinesisk brennevin. 
-- "At de beste tingene i livet er gratis, er et idiotisk uttrykk som er ment å berolige dem som ikke har penger." - Alexis i dynastiet
+- "At de beste tingene i livet er gratis, er et idiotisk uttrykk som er ment å berolige dem som ikke har penger." - Alexis i Dynastiet
 - Industrikomiteen på Stortinget, kalt Parkveiens venner, Norvik holdt leiligheten, Due spriten og Kristiansen politikken.
 - Flerfase teknologi: Teknologi som angår transporten av forskjellige fluider i rør. Tenk olje/gass/vann/slag.
-- Statoil dro Thor Heyerdahl med til Aserbajdsjan for å smøre diktatoren der. Han sa ja og tilføyde at Aserbajdsjan er et jævla spennende land. Notat Heyerdahls teorier som fremkalte latter akademia. Ja
+- Statoil dro Thor Heyerdahl med til Aserbajdsjan for å smøre diktatoren der. Han sa ja og tilføyde at Aserbajdsjan er et jævla spennende land. Notat: Heyerdahls teorier som fremkalte latter akademia.
 - Statoils nasjonale profil under Norvik. De viktige sakene, de riktige mediene.
-- I tenåra hadde Stoltenberg hatt falsk id kort for å kjøpe øl der han lød navnet Robert Stoltenberg.
+- I tenåra hadde Stoltenberg hatt falsk id kort for å kjøpe øl der han lød navnet Hubert Stoltenberg.
 - Hvis økonomisk historie har en sentral lærdom, er det å ikke stole på ekspertene.
 - "Russland hadde gått fra å være det onde imperiet til å bli en ond bananrepublikk som importerte bananer fra Finland." - Victor Pelevins, forfatter
 - "Norges handelshøyskole er ikke perfekt men jeg elsker denne skolens mangler og svulstighet. Enkelte så det er bare galt av sted. Eg var en av dei." Selleresi i TV serien Mammon. 
@@ -369,7 +372,7 @@ Teams achieve this by improving ride capabilities.
 
 - "To write a great book, at first you must become the book." - Naval Ravikant, investor
 - Aggregation of marginal gains: Philosophy of searching for improvement even time in margins in everything you do.
-- Cancer spends about 80% of his life and then takes over the body in months.
+- Cancer spends about 80% of its life undetected and then takes over the body in months.
 - Plateau of latent potential: Something you need to break through in order to see your results.
 - Goals are about the results you want to achieve, systems are about processes that lead to those results.
 - "The score takes care of itself." - Bill Walsh American Football coach
@@ -419,8 +422,8 @@ After I meditate, I will write a to-do list.
 - Create a motivational ritual by doing something you enjoy immediately before a difficult habit.
 - Long-term potentiation: strengthening of connections between neurons in the brain based on the recent past tense of connectivity.
 -Hebb´s law: "Neurons that fire together, wire together"
-- Law all least effort: When deciding between two similar options, people will naturally gravitate towards the option that requires the least amount of effort.
-- The less and legit a hobbit your cars, the easier it will occur.
+- Law of least effort: When deciding between two similar options, people will naturally gravitate towards the option that requires the least amount of effort.
+- The less energy a habbit requires, the easier it will occur.
 - The idea is to create an environment where doing the right thing is as easy as possible. Much of the battle comes down to finding ways to reduce friction associated with our good habits and increase friction associated with our bad ones.
 - Prime your environment to enforce good habits. Prepare in advance to make future actions easier.
 - The two-minute rule: When you start a new habit, it should take less than two minutes to do! 
@@ -454,7 +457,7 @@ Studying for class becomes open my notes.
 #### Cal Newport
 
 - Passion Hypothesis: The key to occupational happiness is to first figure out what you're passionate about and then find a job that maintains that passion.
-- Compelling characters often have complex origins reject a simple idea that all you have to do is follow your passion.
+- Compelling characters often have complex origins. Reject the simple idea that all you have to do is follow your passion.
 - A job: Away to pay the bills. A calling: Work is an important part of your life and a vital part of your identity. A career: a path towards better work
 - Dilletante: Personal practices art or science for their amusement.
 
@@ -462,10 +465,10 @@ Studying for class becomes open my notes.
 
 #### David Blight
 
-- Burkean conservatism: Please stop the word order is set and not for men to tinker with.
+- Burkean conservatism: The world order is set and not for men to tinker with.
 - Traditionalist conservatism: The world is just the way it is and we shouldn't change it.
 - Can you read the Bible and her both arguments for and against slavery.
-- Slavery persistent because there was a massive economic incentive for Southern elite to continue slavery. It was so damn profittalbe
+- Slavery persistent because there was a massive economic incentive for Southern elite to continue slavery. It was so damn profitable. 
 - Chutzpa: extreme self-confidence in Yiddish
 - Four major reform areas in American history
     * American revolution
@@ -482,7 +485,7 @@ Studying for class becomes open my notes.
 - Thermal paper: Paper with encapsulated ink that requires heat which causes the ink and acid to react and form a dark pigment. 
 - Fermi paradox: The vast number of stars and planets in the universe provides abundant opportunities for intelligent life to form. While I was there no evidence of that being true.
 - Janus particle:  What makes electronic papers work.
-- Ephermal: Lasting only a short day.
+- Ephermal: Lasting only a short day/time.
 - Concrete doesn´t dry, it is reacting with water.
 - Make concrete, aluminum and iron-rich rocks are the magic ingredients.
 - Concrete is cement mixed with small stones, or pebbles, which play the role of tiny bricks. 
@@ -492,9 +495,9 @@ Studying for class becomes open my notes.
 - Maillard reaction: When applied with heat, carbohydrates (sugars) and proteins form bonds that create delicious tastes.
 - Theobromine Is Sam psychoactive ingredient in chocolate that is poisonous to dogs.
 - Chocolate shall be put at room temperature 20°C is it then will melt in the mouth.
-- Linnean name What chocolate is theobroma, which means food of the gods!
+- Linnean name for chocolate is theobroma, which means food of the gods!
 - The sky is blue because light hits nitrogen and oxygen molecules and scatters off of them. If all lights were scattered equally, the sky would be white. However, shorter wavelength light is more likely to be scattered than long-wavelength particles, so that's the reason why the sky is blue. This is called a Raleigh effect.
-- The definition of temperature is down Mt. vibrations the atoms are doing.
+- The definition of temperature is how much vibrations the atoms are doing.
 - Billiard was invented in 1600s Europe, similar to Crockett. The plane of the pool table is covered green to represent grass.
 - What song is almost pure quartz.
 - I found a time is the size of a stadium, then the nucleus would be the size of a pea in the center of the stadium. And an electron will be the size of a grain of sand in the stands.
@@ -506,7 +509,7 @@ Studying for class becomes open my notes.
 - Diamond derives from Greek 'Adamas' meaning unalterable or unbreakable
 - De Beers controlled 90% of the world's diamond production in 1902.
 - Graphite is soft because of its weak van der Waals forces.
-- Sapphires are aluminum oxide's with ion impurities and rubies are aluminum oxide with chromium impurities
+- Sapphires are aluminum oxide with ion impurities and rubies are aluminum oxide with chromium impurities
 - Bessemer process: the process of making cheap steel.
 - Gillette (King Camp first name) used the Bessemer process to create disposable razors.
 - Stainless steel was created by accident, Harry Brearly discovered a steel chromium aloe that lay in a rusted pile in great condition. Chromium oxide sticks really well to the steel and creates a protective layer.
@@ -545,8 +548,8 @@ Studying for class becomes open my notes.
 #### Eric Ries
 
 - Lean thinking is radically altering the way supply chains and production systems are run. Its tenants are :
-    * Drawing of knowledge and threats of a day of individual workers.
-    * Shrinking back choices.
+    * Drawing of knowledge and creativity of individual workers.
+    * Shrinking batch sizes.
     * Just-in-time production and inventory control.
     * Acceleration of cycle times.
 - Metcalfe´s law: The value of the networks is proportional to the square of the number of participants.
@@ -564,7 +567,7 @@ Studying for class becomes open my notes.
 
 #### Michael Lewis
 
-- Wall street liked immigrant mortgages because they had good (but short) FICO scores. No  defaults when there were no loans.
+- Wall Street liked immigrant mortgages because they had good (but short) FICO scores. No  defaults when there were no loans.
 - Rating agencies analysts weren´t allowed to downgrade mortgages without their bosses' approval.
 - To win in financial markets, you either expose flaws in the system, or you go on a lucky run. 
 - Thornwal Capital hired a statistics Ph.D. from Berkely but he quit after they asked him to analyze the pork belly market. He was a vegetarian and against capitalism, the pork thing pushed him over the edge.
@@ -647,7 +650,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 - "My pencil and I are more clever than I" - Albert Einstein
 - Problems are inevitable but soluble.
 - Lamarckism : A mistaken evolutionary theory based on the idea that biological adaptations are improvements acquired by an organism during its lifetime and inherited by its descendants.
-- Quale: THe subjective aspect of a sensation.
+- Quale: The subjective aspect of a sensation.
 - There has been no significant progress in the field of artificial general intelligence (AGI) because we do not understand how creativity works.
 - Science is the 'Art of the soluble'
 - Systems of government should be judged not by their ability to choose and install good leaders, but by their ability to remove bad ones that are already there.
@@ -666,9 +669,9 @@ The third best indicator of success in the Navy Seal training was being on the w
 - Yeast is single-celled fungi.
 - Enzyme is derived from the Greek word for yeast.
 - " Beautiful theory, killed by an ugly fact" - Thomas Huxley, an evolutionary biologist.
-- "Where in the bird is the laser?" - Hershbach when shown a laser that could navigate using magnetic fields, and the idea that birds use this phenomena. 
+- "Where in the bird is the laser?" - Hershbach when shown a laser that could navigate using magnetic fields, and the idea that birds use this phenomena to navigate. 
 - Man-made magnets pulses disrupt migratory birds from navigating.
--Some biologists would argue that self-replication is life´s defining future.
+- Some biologists would argue that self-replication is life´s defining future.
 - Mutations in DNA are usually less than one in a billion.
 - Mutation rate is not affected by environment or external stressors. For example, bacteria does not evolve protections for the virus if exposed to them. 
 - In an attempt to simulate primordial life conditions, Stanley Miller filled a bottle of water, toppled with gases he thought would be present in the atmosphere (methane, hydrogen, ammonia and water vapor). He then simulated lightning bolt igniting the mixture with electric sparks. After only a week of sparking the primordial atmosphere, significant quantities of amino acids, the building blocks of proteins have appeared. This is called the Miller-Urey experiment
@@ -685,7 +688,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 - "Stock options are managerial heroin." - Michael Jensen, professor at Harward.
 - Every single economist polled said the Trump-era tax cut would increase debt, 100%.
 - All college degrees returns a 10% return on investment.
--Rule of 72: take 72 and divide it by the interest rate and you get roughly how long it will take for a quantity to double.
+- Rule of 72: take 72 and divide it by the interest rate and you get roughly how long it will take for a quantity to double.
 - A wealthy man is someone who earns a dollar a year more than his wife's sister's husband.
 - Only 8% of hedge funds outperformed index funds over a 15-year horizon. 
 - Studies have shown that people with brain damage are particularly good investors.
@@ -716,7 +719,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 - Kosher rules are much broader and stricter than Halal.
 - McDonald's thrives because they are proportionally less likely to be vetoed in a group setting.
 - Genes follow a majority rule, languages follow the minority rule.
-- Kurt Godel started arguing about the intolerant-tolerant incoherence of the US Constitution during his naturalization exam. Einstein his witness saved him.
+- Kurt Godel started arguing about the intolerant-tolerant incoherence of the US Constitution during his naturalization exam. Einstein, his witness, saved him.
 - The Romans judged their political system by asking not whether it made sense but whether it worked.
 - A free person does not need to win arguments, just win.
 
@@ -735,7 +738,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 
 - "Inflation is always and everywhere an monetary phenomenon." - Milton Friedman
 - Stationary state: Coin by Adam Smith when low wages of majority is coupled by an elitist minority.
-- "institutions are what matters." - Hernando de Soto
+- "Institutions are what matters." - Hernando de Soto
 - The Arab Spring can be seen as a revolt of entrepreneurs against extractive institutions.
 - "The great social contract is not between the state and its citizens, but rather between the generations." - Paraphrased from Burke
 - Complex regulation is the disease that pretends to be the cure.
@@ -746,7 +749,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 
 #### Linda Polman
 
-- Blue helmets are obligated to follow the rules of his contract government, even when that government commits acts of genocide.
+- Blue helmets are obligated to follow the rules of their host government, even when that government commits acts of genocide.
 - "Governments lie, it is in the nature to do so." - Mort Rosenblum
 - "If governments are not deceiving their citizens with a preconceived goal in mind, they are busy deceiving themselves." - Mort Rosenblum
 
@@ -759,7 +762,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 - Bureaucracy is familiar, complex and systemic, well-defended, serves a purpose and is self-replicating. 
 - Bureaucracy: from the French bureaucratie, the rule of desks. Coined by Jean-Claude Marie Vincent, a French government Minister in the early 18th century.
 - "A long habit of not thinking a thing wrong gives it a superficial appearance of being right." - Thomas Paine
-" We are most alive when we have the experience of mental stimulation, the challenge of new problems to solve, and excitement of venturing into the unknown." - Edmund Phelps, Nobel laureate
+- " We are most alive when we have the experience of mental stimulation, the challenge of new problems to solve, and excitement of venturing into the unknown." - Edmund Phelps, Nobel laureate
 - Chinese state-owned enterprises generate 20% of the output but account for 3/4 of all corporate borrowing.
 - Market are decentralized and firms are not by definition.
 - "When the top guy is the smartest guy in the world, you've got a real problem" - Former GE staffer to Fortune´s Geoff Colvin
@@ -775,8 +778,8 @@ The third best indicator of success in the Navy Seal training was being on the w
 
 #### Niall Ferguson
 
-- 60 % av dødsfallene blant men i jivaro stammen i Ecuador er forårsaket av vold.
-- Sølv byen Potosì i Peru var en av de viktigste byene i det spanske imperium med en størrelse på mellom 160 til 200.000 innbyggere.45.000 tonn med en sølv var hentet ut fra gruvene derifra.
+- 60 % av dødsfallene blant men i Jivaro stammen i Ecuador er forårsaket av vold.
+- Sølv byen Potosì i Peru var en av de viktigste byene i det spanske imperium med en størrelse på mellom 160 til 200.000 innbyggere. 45.000 tonn med en sølv ble hentet ut fra gruvene derifra.
 - Valer un Potosì : Verdt en Potosì, spansk utrykk for å være verdt en formue. 
 - Rente som konsept stammer sannsynligvis fra den naturlige økningen i kvegflokken.
 - Kreditt kommer fra latin 'credo' (jeg tror)
@@ -815,7 +818,7 @@ The third best indicator of success in the Navy Seal training was being on the w
 - There are 200 different types and more than 37 trillion cells in the human body.
 - Predators affect/stabilize communities by negatively regulating the population densities of the competitively dominant species.
 - Kick it and see biology: remove predators and watch of prey population behave. An example of this was removing wolves from Yellowstone.
-- When otters were decimated by fur hunters on the complex on the coast of California, sea-urchin started to multiply and live behind Byron restaurant. When otters were re-introduced algae forest started to grow again.
+- When otters were decimated by fur hunters on the coast of California, sea-urchin started to multiply and live behind barren lands where there once was kelp forrests. When otters were re-introduced algae forest started to grow again.
 - Trophic cascades: strong top-down effect when removing a species from a food chain.
 - Pathogens act as keystone species, disproportionately affecting populations.
 - In Serengeti, animal the body mass correlates negatively with predation, sharp drop in predation levels at around 150 kg for the prey.
@@ -937,7 +940,7 @@ A lot of the reason for this was the poaching of the predators that feed on the 
 - Farming subsidies have nothing to do with production. It is a reward to key supporters. If not farmers are not a relevant voting group then no farming subsidies.
 - Kabuki : Japanese theater. Sometimes used to illustrate theatrical tricks.
 - Amuse-bouche: A small hors d’oeuvre of that is used as an appetite appetizer. Means mouth joy.
-- Hors d'oeuvre – means outside of opus/the artwork. Can be translated as an appetizer. A similar term in Italian is anti-pasta.
+- Hors d'oeuvre - means outside of opus/the artwork. Can be translated as an appetizer. A similar term in Italian is anti-pasta.
 - Esoteric: Intended for or likely to be understood by only a small number of people with special specialized knowledge or interest.
 - Machine learning provides a means for people who don't know anything about the subject to publish papers in the field. So it's just like getting a Ph.D. in economics. 
 - Etymologi: Lærenom ordenes opprinnelse.
@@ -948,7 +951,7 @@ A lot of the reason for this was the poaching of the predators that feed on the 
 - Paraphilia: Sexual preferences that are not based on another person.
 - Dunbar´s number: Suggested cognitive number of the number of people with whom we can have and maintain stable slow social relationships (about 150 people).
 - Bizet Reaction: Is one of a class of reactions that serve as a classical example of non-equilibrium thermodynamics, resulting in the establishment of a nonlinear chemical oscillator.
-- Edvard Lawrence kind of butterfly effect for his influential talk; 'Does a flap of a butterfly's wings in Brazil cause a hurricane in Texas.'
+- Edvard Lorenz coined the butterfly effect for his influential talk; 'Does a flap of a butterfly's wings in Brazil cause a hurricane in Texas.'
 - "En ting er å legge planer, noe ganske annet er å vite hvor man har lagt dem." - Ole Henrik Magga, Sametingspresident.
 - "If your beliefs were consistent and sound it is definitely because they are incomplete and not universal. If your beliefs were complete and universal it is definitely because they contain inconsistencies." - Kurt Godel
 - When Einstein delivered his Ph.D. thesis, he was asked by his reviewers to add more text. He thought about it for a weak, added 1 sentence and passed.
