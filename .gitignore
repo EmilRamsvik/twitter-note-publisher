@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# Keys
+gcp_service_account_keys.json
+
+.vscode/
+credentials.json
+
 # C extensions
 *.so
 
