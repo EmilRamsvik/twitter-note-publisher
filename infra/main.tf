@@ -5,7 +5,7 @@ provider "google" {
   credentials = "${file("${var.path}/credentials.json")}"
 }
 
-# 
+# Create a new bucket where the zipped code files  
 resource "google_storage_bucket" "bucket" {
   name="bucket-twitter-notes"
 }
@@ -28,14 +28,14 @@ resource "google_storage_bucket_object" "archive" {
 }
 
 resource "google_cloudfunctions_function" "function" {
-  name        = "function-test"
+  name        = "Post-tweets-function"
   runtime     = "python38"
 
   available_memory_mb   = 128
   source_archive_bucket = google_storage_bucket.bucket.name
   source_archive_object = google_storage_bucket_object.archive.name
   trigger_http          = true
-  entry_point           = "hello_world"
+  entry_point           = "run"
   environment_variables = {
 AIRTABLE_API_KEY="${var.AIRTABLE_API_KEY}"
 TWITTER_ACCESS_TOKEN_SECRET="${var.TWITTER_ACCESS_TOKEN_SECRET}"
@@ -56,30 +56,31 @@ resource "google_cloudfunctions_function_iam_member" "invoker" {
 }
 
 
-# '# The cloud function needs a service account that is credentialed to run it. 
-# resource "google_service_account" "service_account" {
-#   account_id = "cloud-function-invoker"
-#   display_name = "twitter-bot-proj-booknotes-poster"
-# }
+# The cloud function needs a service account that is credentialed to run it. 
+resource "google_service_account" "service_account" {
+  account_id = "cloud-function-invoker"
+  display_name = "twitter-bot-proj-booknotes-poster"
+}
 
-# resource "google_project_iam_member" "invoker" {
-#   project = google_cloudfunctions_function.function.project
+resource "google_project_iam_member" "invoker" {
+  project = google_cloudfunctions_function.function.project
 
-#   role = "roles/cloudfunctions.invoker"
-#   member = "serviceAccount:${google_service_account.service_account.email}"
-# } 
+  role = "roles/cloudfunctions.invoker"
+  member = "serviceAccount:${google_service_account.service_account.email}"
+} 
 
-# resource "google_cloud_scheduler_job" "job" {
-#   name = "twitter-bot-proj-booknotes-poster"
-#   description = "Schedule the ${google_cloudfunctions_function.function.name} function to run every 5 minutes"
-#   schedule = "every 5 minutes"
-#   time_zone = "Europe/London"
-#   http_target {
-#     http_method = "GET"
-#     uri         = google_cloudfunctions_function.function.https_trigger_url
+resource "google_cloud_scheduler_job" "job" {
+  name = "twitter-bot-proj-booknotes-poster"
+  description = "Schedule the ${google_cloudfunctions_function.function.name} function to run every 5 minutes"
+  schedule = "0 */12 * * *"
+  time_zone = "Europe/London"
+  http_target {
+    http_method = "GET"
+    uri         = google_cloudfunctions_function.function.https_trigger_url
 
-#     oidc_token {
-#       service_account_email = google_service_account.service_account.email
-#     }
-#   }
-#   }'
+    oidc_token {
+      service_account_email = google_service_account.service_account.email
+    }
+  }
+  }
+# 
