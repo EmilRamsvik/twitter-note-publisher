@@ -11,7 +11,6 @@ env:
   TF_VAR_TWITTER_ACCESS_TOKEN : ${{secrets.TF_VAR_TWITTER_ACCESS_TOKEN}}
   TF_VAR_TWITTER_CONSUMER_SECRET : ${{secrets.TF_VAR_TWITTER_CONSUMER_SECRET}}
   TF_VAR_TWITTER_CONSUMER_KEY : ${{secrets.TF_VAR_TWITTER_CONSUMER_KEY}}
-  GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 jobs:
   terraform:
     name: 'Terraform'
@@ -47,6 +46,8 @@ jobs:
     # Generates an execution plan for Terraform
     - name: Terraform Plan
       working-directory: ./infra
+      env:
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
       run: terraform plan
 
       # On push to main, build or change infrastructure according to Terraform configuration files
