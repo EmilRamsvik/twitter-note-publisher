@@ -11,6 +11,7 @@ env:
   TF_VAR_TWITTER_ACCESS_TOKEN : ${{secrets.TF_VAR_TWITTER_ACCESS_TOKEN}}
   TF_VAR_TWITTER_CONSUMER_SECRET : ${{secrets.TF_VAR_TWITTER_CONSUMER_SECRET}}
   TF_VAR_TWITTER_CONSUMER_KEY : ${{secrets.TF_VAR_TWITTER_CONSUMER_KEY}}
+  working-directory: ./infra
 jobs:
   terraform:
     name: 'Terraform'
@@ -22,9 +23,11 @@ jobs:
         shell: bash
 
     steps:
+
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v2
+
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: Setup Terraform
