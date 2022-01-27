@@ -31,7 +31,7 @@ jobs:
 
     - name: check directory
       run: |
-        echo pwd
+        pwd
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
     - name: Setup Terraform
       uses: hashicorp/setup-terraform@v1
