@@ -5,6 +5,8 @@ on:
     branches:
     - main
   pull_request:
+
+
 env:
   TF_VAR_AIRTABLE_API_KEY : ${{secrets.TF_VAR_AIRTABLE_API_KEY}}
   TF_VAR_TWITTER_ACCESS_TOKEN_SECRET : ${{secrets.TF_VAR_TWITTER_ACCESS_TOKEN_SECRET}}
@@ -21,6 +23,7 @@ jobs:
       run:
         shell: bash
 
+    environment: Production
     steps:
 
     # Checkout the repository to the GitHub Actions runner
