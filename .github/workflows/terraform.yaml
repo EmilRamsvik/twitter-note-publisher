@@ -23,7 +23,6 @@ jobs:
       run:
         shell: bash
 
-    environment: Production
     steps:
 
     # Checkout the repository to the GitHub Actions runner
