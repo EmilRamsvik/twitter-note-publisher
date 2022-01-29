@@ -17,3 +17,8 @@ variable "TWITTER_CONSUMER_SECRET" {
 variable "TWITTER_CONSUMER_KEY" {
   sensitive = true
 }
+variable "GOOGLE_APPLICAION_CREDENTIALS" {
+  sensitive = true
+}
+  
+}
