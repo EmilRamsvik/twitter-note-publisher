@@ -1,9 +1,19 @@
 import tweepy
 from config import settings
 from pyairtable import Table
+from typing import List
 
 
-def divide_into_tweet(text):
+def divide_into_tweet(text: str) -> List[str]:
+    """Takes a textstring and divides it unto a list of strings that are less
+    than or equal to 276 characters long.
+
+    Args:
+        text (str): text to be divided into tweets
+
+    Returns:
+        List[str]: list of tweets less than 276
+    """
     puncts = [".", ",", ";", "--"]
     tweets = []
     while len(text) > 280:
@@ -18,7 +28,7 @@ def divide_into_tweet(text):
     return tweets
 
 
-def post_tweet():
+def authenticate_twitter() -> tweepy.API:
     # Authenticate to Twitter
     auth = tweepy.OAuthHandler(
         settings.TWITTER_CONSUMER_KEY, settings.TWITTER_CONSUMER_SECRET
@@ -26,12 +36,13 @@ def post_tweet():
     auth.set_access_token(
         settings.TWITTER_ACCESS_TOKEN, settings.TWITTER_ACCESS_TOKEN_SECRET
     )
-    api = tweepy.API(auth)
+    return tweepy.API(auth)
+
+
+def get_airtable_data(base_id: str, table_name: str):
 
     table = Table(
-        api_key=settings.AIRTABLE_API_KEY,
-        base_id=settings.AIRTABLE_BASE_ID,
-        table_name="Tweets",
+        api_key=settings.AIRTABLE_API_KEY, base_id=base_id, table_name=table_name,
     )
     for record in table.all():
         if record["fields"]["Posted"] == 0:
@@ -42,19 +53,38 @@ def post_tweet():
     author = record["fields"]["Author"]
     title = record["fields"]["Title"]
     quote = record["fields"]["Quote"]
+    return airtable_field_id, author, title, quote
+
+
+def post_tweet():
+    """
+    Posts a tweet to Twitter:
+
+    1. Get twitter api handler
+    2. Get data from airtable
+    3. Divide quote into tweets
+    4. Post tweet string to twitter
+    """
+    api = authenticate_twitter()  # get twitter account
+    airtable_field_id, author, title, quote = get_airtable_data(
+        base_id=settings.AIRTABLE_BASE_ID, table_name="Tweets"
+    )
     tweets = divide_into_tweet(quote)
     reference = f"Taken from {title} by {author}"
+
     first_tweet = None
     counter = 0
     number_of_tweets = len(tweets)
-    if len(tweets) == 1:
+    if len(tweets) == 1:  # if only one tweet do not add numbering only reference
         first_tweet = api.update_status(f"{tweets[0]}")
         api.update_status(f"{reference}", in_reply_to_status_id=first_tweet.id)
-    else:
+    else:  # if more than one tweet add numbering, then add reference last
         for tweet in tweets:
             counter = counter + 1
             if first_tweet is None:
-                first_tweet = api.upde_status(f"{tweet} ({counter}/{number_of_tweets})")
+                first_tweet = api.update_status(
+                    f"{tweet} ({counter}/{number_of_tweets})"
+                )
             else:
                 api.update_status(
                     f"{tweet} ({counter}/{number_of_tweets})",
@@ -62,5 +92,10 @@ def post_tweet():
                 )
         api.update_status(f"{reference}", in_reply_to_status_id=first_tweet.id)
         print(tweets)
-    table.batch_update(records=[{"id": airtable_field_id, "fields": {"Posted": 1}}])
-
+    Table(
+        api_key=settings.AIRTABLE_API_KEY,
+        base_id=settings.AIRTABLE_BASE_ID,
+        table_name="Tweets",
+    ).batch_update(
+        records=[{"id": airtable_field_id, "fields": {"Posted": 1}}]
+    )  # update airtable that the tweet has been posted.
