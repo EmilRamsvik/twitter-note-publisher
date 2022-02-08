@@ -38,7 +38,7 @@ jobs:
     - name: Terraform Init
       working-directory: ./infra
       env:
-        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.TF_VAR_GOOGLE_APPLICATION_CREDENTIALS }}
       run: terraform init
 
 
@@ -51,7 +51,7 @@ jobs:
     - name: Terraform Plan
       working-directory: ./infra
       env:
-        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.TF_VAR_GOOGLE_APPLICATION_CREDENTIALS }}
       run: terraform plan
 
       # On push to main, build or change infrastructure according to Terraform configuration files
