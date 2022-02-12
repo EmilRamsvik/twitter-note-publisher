@@ -1,5 +1,5 @@
 name: Test Dashboard with Pytest
-on: [pull_request]
+on: [push]
 env:
   TWITTER_CONSUMER_KEY: "A secret key"
   TWITTER_CONSUMER_SECRET: "A secret key"
