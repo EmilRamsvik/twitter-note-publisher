@@ -9,9 +9,6 @@ class Settings(BaseSettings):
     TWITTER_ACCESS_TOKEN_SECRET: str = ""
     TWITTER_BEARER_TOKEN: str = ""
     API_KEY_SECRET: str = ""
-    BEARER_TOKEN: str = ""
-    CLIENT_ID: str = ""
-    CLIENT_SECRET: str = ""
     AIRTABLE_BASE_ID: str = "appO7OaB8EmeAn0Zm"
     AIRTABLE_API_KEY: str = ""
 

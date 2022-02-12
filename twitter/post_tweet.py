@@ -29,7 +29,11 @@ def divide_into_tweet(text: str) -> List[str]:
 
 
 def authenticate_twitter() -> tweepy.API:
-    # Authenticate to Twitter
+    """Generates an api object that can be used to post tweets.
+
+    Returns:
+        tweepy.API: Authenticated twitter api object.
+    """
     auth = tweepy.OAuthHandler(
         settings.TWITTER_CONSUMER_KEY, settings.TWITTER_CONSUMER_SECRET
     )
@@ -39,11 +43,49 @@ def authenticate_twitter() -> tweepy.API:
     return tweepy.API(auth)
 
 
-def get_airtable_data(base_id: str, table_name: str):
+def send_tweets_to_twitter(tweets: List[str], reference: str, api: tweepy.API):
+    """Post tweets to the twitter account. If more than one tweet divides into
+       a tweet string that is enumerated.
 
-    table = Table(
-        api_key=settings.AIRTABLE_API_KEY, base_id=base_id, table_name=table_name,
-    )
+    Args:
+        tweets (List[str]): list containing tweet length text strings.
+        reference (str): reference to the source of the quote.
+        api (tweepy.API): Authenticated twitter api object.
+    """
+    first_tweet = None
+    number_of_tweets = len(tweets)
+    if len(tweets) == 1:  # if only one tweet do not add numbering only reference
+        first_tweet = api.update_status(f"{tweets[0]}")
+        api.update_status(f"{reference}", in_reply_to_status_id=first_tweet.id)
+    else:  # if more than one tweet add numbering, then add reference last
+        counter = 0
+        for tweet in tweets:
+            counter = counter + 1
+            if first_tweet is None:
+                first_tweet = api.update_status(
+                    f"{tweet} ({counter}/{number_of_tweets})"
+                )
+            else:
+                api.update_status(
+                    f"{tweet} ({counter}/{number_of_tweets})",
+                    in_reply_to_status_id=first_tweet.id,
+                )
+        api.update_status(f"{reference}", in_reply_to_status_id=first_tweet.id)
+
+
+def get_airtable_data(airtable_key: str, base_id: str, table_name: str):
+    """Retrieves a table from airtable.
+
+    Args:
+        base_id (str): base_id - found in airtable
+        airtable_key (str): used to be authorized to access airtable.
+        table_name (str): name of the table beloning to the base_id
+
+    Returns:
+        tuple: (airtable_field_id, author, title, quote)
+    """
+    table = Table(api_key=airtable_key, base_id=base_id, table_name=table_name,)
+    # loops through records until one that is not posted is found.
     for record in table.all():
         if record["fields"]["Posted"] == 0:
             break
@@ -71,27 +113,7 @@ def post_tweet():
     )
     tweets = divide_into_tweet(quote)
     reference = f"Taken from {title} by {author}"
-
-    first_tweet = None
-    counter = 0
-    number_of_tweets = len(tweets)
-    if len(tweets) == 1:  # if only one tweet do not add numbering only reference
-        first_tweet = api.update_status(f"{tweets[0]}")
-        api.update_status(f"{reference}", in_reply_to_status_id=first_tweet.id)
-    else:  # if more than one tweet add numbering, then add reference last
-        for tweet in tweets:
-            counter = counter + 1
-            if first_tweet is None:
-                first_tweet = api.update_status(
-                    f"{tweet} ({counter}/{number_of_tweets})"
-                )
-            else:
-                api.update_status(
-                    f"{tweet} ({counter}/{number_of_tweets})",
-                    in_reply_to_status_id=first_tweet.id,
-                )
-        api.update_status(f"{reference}", in_reply_to_status_id=first_tweet.id)
-        print(tweets)
+    send_tweets_to_twitter(tweets, reference, api)
     Table(
         api_key=settings.AIRTABLE_API_KEY,
         base_id=settings.AIRTABLE_BASE_ID,

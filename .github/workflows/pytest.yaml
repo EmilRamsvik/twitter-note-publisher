@@ -1,0 +1,25 @@
+name: Test Dashboard with Pytest
+on: [pull_request]
+env:
+  TWITTER_CONSUMER_KEY: "A secret key"
+  TWITTER_CONSUMER_SECRET: "A secret key"
+  TWITTER_ACCESS_TOKEN: "A secret key"
+  TWITTER_ACCESS_TOKEN_SECRET: "A secret key"
+  AIRTABLE_API_KEY: "A secret key"
+  TWITTER_CLIENT_ID: "A secret key"
+  TWITTER_CLIENT_SECRET: "A secret key"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: install dependencies
+        run: pip install -r requirements.txt
+      - name: install test dependencies
+        run: pip install -r requirements-test.txt
+      - name: Run tests
+        run: python -m pytest -vv

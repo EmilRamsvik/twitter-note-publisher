@@ -46,6 +46,7 @@ def test_get_airtable_data(mocker):
     response of the pyairtable.Table and pyairtable.table.all method.
     """
     # Fake parameters
+    airtable_key = "super-secret-key"
     base_id = "app3q3q3q3q3q3q3q"
     table_name = "Quotes"
 
@@ -65,7 +66,9 @@ def test_get_airtable_data(mocker):
     )
     with mock.patch("post_tweet.Table") as mock_table:
         mock_table.return_value = mock_pyairtable
-        airtable_field_id, author, title, quote = get_airtable_data(base_id, table_name)
+        airtable_field_id, author, title, quote = get_airtable_data(
+            airtable_key, base_id, table_name
+        )
         assert airtable_field_id == "rec3q3q3q3q3q3q3q"
         assert author == "John Doe"
         assert title == "A title"
