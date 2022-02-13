@@ -9,6 +9,7 @@ from post_tweet import (
     authenticate_twitter,
     get_airtable_data,
     post_tweet,
+    send_tweets_to_twitter,
 )
 
 
@@ -86,8 +87,29 @@ def test_authenticate_twitter(mocker):
         mock_tweepy.assert_called_once()
 
 
-def test_post_tweet():
+def test_send_tweet_to_twitter(mocker):
+    """
+    Test that the send_tweet_to_twitter function calls on update status api 
+    for all tweets and the reference tweet.
+    """
+    mock_api = mock.Mock()
+    mock_api.update_status = mock.Mock(
+        return_value=mock.Mock(id=12345)
+    )  # make new mock instance for each test case.
+    with mock.patch("post_tweet.tweepy.API") as mock_tweepy:
+        mock_tweepy.return_value = mock_api
+        send_tweets_to_twitter(
+            tweets=["tweet1", "tweet2"],
+            reference="This is a reference string",
+            api=mock_api,
+        )
+        mock_api.update_status.call_count == 3  # 2 tweets & 1 reference.
 
+
+def test_post_tweet():
+    """
+    Tests the entire pipeline for sending tweets to twitter.
+    """
     quotes = [
         "This is a single tweet quote",
         "This quote that must be split into 2 tweets" * 10,
