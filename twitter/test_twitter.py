@@ -1,8 +1,5 @@
-import pytest
-import unittest
 import tweepy
 import numpy as np
-from config import settings
 from unittest import mock
 from post_tweet import (
     divide_into_tweet,
@@ -16,26 +13,20 @@ from post_tweet import (
 def test_divide_into_tweet():
     """
     Test that the divide_into_tweet function divides a string into a list of tweets
-    that are less than or equal to 276 characters long.
+    that is either 1 tweet of less than 281 characters or a many tweets less than
+    277 characters.
     """
-    quote = "This is a short tweet. This is a short tweet."
-    tweets = divide_into_tweet(quote)
+    quote_280 = "c" * 280
+    tweets = divide_into_tweet(quote_280)
     assert len(tweets) == 1
-    assert len(tweets[0]) <= 276
+    assert len(tweets[0]) == len(quote_280)  # No characters are lost.
 
-
-def test_more_than_one_tweet():
-    """
-    Test that the divide_into_tweet function divides a string into a list of tweets
-    that are less than or equal to 276 characters long.
-    """
-    quote = "This is a sentence of fourty characters." * 8  # 280 characters.
-    print(len(quote))
-    tweets = divide_into_tweet(quote)
+    quote_320 = "This is a sentence of fourty characters." * 8  # 320 characters.
+    tweets = divide_into_tweet(quote_320)
     assert len(tweets) == 2
     assert len(tweets[0]) <= 276
     assert len(tweets[1]) <= 276
-    assert len(tweets[0]) + len(tweets[1]) == len(quote)
+    assert len(tweets[0]) + len(tweets[1]) == len(quote_320)
     assert (
         tweets[0][-1] == "."
     )  # Ensure that the last character is a period of first tweet.

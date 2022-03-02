@@ -3,7 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
+# blog files
+blog
 # Keys
 gcp_service_account_keys.json
 
