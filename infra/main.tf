@@ -1,5 +1,5 @@
 output "GCP" {
-  value = var.GOOGLE_APPLICAION_CREDENTIALS
+  value = var.TWITTER_ACCESS_TOKEN
 }
 provider "google" {
   project     = "twitter-notes-338310"

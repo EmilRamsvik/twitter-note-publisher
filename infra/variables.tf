@@ -23,8 +23,7 @@ variable "TWITTER_CONSUMER_KEY" {
   sensitive = true
   description = "From Twitter Developer account"
 }
-variable "GOOGLE_APPLICAION_CREDENTIALS" {
-  # sensitive = true
-  default = "No credentials found"
-  description = "JSON credentials for the service account"
-}
+# variable "GOOGLE_APPLICAION_CREDENTIALS" {
+#   sensitive = true
+#   description = "JSON credentials for the service account"
+# }
