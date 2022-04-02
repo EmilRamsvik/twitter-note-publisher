@@ -34,12 +34,11 @@ jobs:
       uses: hashicorp/setup-terraform@v1
 
 
-
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
       working-directory: ./infra
-      env:
-        TF_VAR_GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      # env:
+        # TF_VAR_GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
       run: terraform init
 
 
@@ -54,7 +53,8 @@ jobs:
       with:
         path: ./infra
       env:
-        TF_VAR_GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        # TF_VAR_GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        TF_VAR_GOOGLE_APPLICATION_CREDENTIALS: "GCP_TOKEN"
                                                            
 
       # On push to main, build or change infrastructure according to Terraform configuration files

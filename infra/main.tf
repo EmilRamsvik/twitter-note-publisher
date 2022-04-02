@@ -1,4 +1,6 @@
-
+output "GCP" {
+  value = var.GOOGLE_APPLICAION_CREDENTIALS
+}
 provider "google" {
   project     = "twitter-notes-338310"
   region      = "europe-west2"
