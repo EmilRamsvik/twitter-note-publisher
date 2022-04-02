@@ -53,7 +53,7 @@ jobs:
       with:
         path: ./infra
       env:
-        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
                                                            
 
       # On push to main, build or change infrastructure according to Terraform configuration files
