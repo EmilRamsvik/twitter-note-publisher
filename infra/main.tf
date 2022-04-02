@@ -1,6 +1,4 @@
-output "GCP" {
-  value = var.TWITTER_ACCESS_TOKEN
-}
+
 provider "google" {
   project     = "twitter-notes-338310"
   region      = "europe-west2"
