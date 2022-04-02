@@ -2,7 +2,6 @@
 provider "google" {
   project     = "twitter-notes-338310"
   region      = "europe-west2"
-  credentials = var.GOOGLE_APPLICAION_CREDENTIALS
 }
 
 # Create a new bucket where the zipped code files  

@@ -1,4 +1,4 @@
-name: Test Dashboard with Pytest
+name: Test code with Pytest
 on: [push]
 env:
   TWITTER_CONSUMER_KEY: "A secret key"
