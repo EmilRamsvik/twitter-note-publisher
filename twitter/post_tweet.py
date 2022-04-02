@@ -84,7 +84,11 @@ def get_airtable_data(airtable_key: str, base_id: str, table_name: str):
     Returns:
         tuple: (airtable_field_id, author, title, quote)
     """
-    table = Table(api_key=airtable_key, base_id=base_id, table_name=table_name,)
+    table = Table(
+        api_key=airtable_key,
+        base_id=base_id,
+        table_name=table_name,
+    )
     # loops through records until one that is not posted is found.
     for record in table.all():
         if record["fields"]["Posted"] == 0:

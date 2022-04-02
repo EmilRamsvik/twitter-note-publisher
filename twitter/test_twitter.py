@@ -80,7 +80,7 @@ def test_authenticate_twitter(mocker):
 
 def test_send_tweet_to_twitter(mocker):
     """
-    Test that the send_tweet_to_twitter function calls on update status api 
+    Test that the send_tweet_to_twitter function calls on update status api
     for all tweets and the reference tweet.
     """
     mock_api = mock.Mock()
